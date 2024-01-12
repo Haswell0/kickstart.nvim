@@ -1,4 +1,32 @@
-# kickstart.nvim
+## Haswell0's kickstart.nvim fork
+This is my personal fork of kickstart.nvim, I have not yet made many changes to it, but for this intro I will list what is different.
+
+# + compiler.nvim by Zeioth
+[Zeioth/compiler.nvim](https://github.com/Zeioth/compiler.nvim)
+As the name implies, this plugin provides built in compiling support to neovim. To utilize it, use :CompilerOpen
+This plugin requires dependecies in order to be able to run the compilers. Check out the README for compiler.nvim for a thorough explanation of
+
+Make sure to check the [wiki for the repo](https://github.com/Zeioth/Compiler.nvim/wiki/how-to-install-the-required-dependencies) to make sure this is still the required deps
+here is the command for the deps for Arch
+```# You can use any AUR helper
+paru -S mingw-w64 dotnet-runtime dotnet-sdk mono jdk-openjdk rust go nasm r nuitka pyinstaller python ruby perl lua dart flutter kotlin elixir npm nodejs typescript make
+```
+
+# + neotree.nvim
+[nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim
+Not much to say about this one, its a nice file tree sidebar.
+activate it with :Neotree
+
+
+# Plugins are loaded from nvim/lua/custom/plugins
+I decided to start keeping new plugins in the custom directory, so I can have a cleaner init.lua
+I still haven't moved every plugin that kickstart comes with, but I may do that in the future.
+
+This is where my section of this readme ends, I'm currently leaving the rest of kickstart.nvim's readme intact.
+
+
+
+## kickstart.nvim
 
 https://github.com/kdheepak/kickstart.nvim/assets/1813121/f3ff9a2b-c31f-44df-a4fa-8a0d7b17cf7b
 
